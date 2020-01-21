@@ -10,6 +10,7 @@ namespace C__Project
             sayHey("Hey Jay!");
             sayHey("Hey Mel!");
             sayHey("Hey Luna!");
+            sayHey("Hey Dude!");
         }
 
         static void sayHey(string words) 
