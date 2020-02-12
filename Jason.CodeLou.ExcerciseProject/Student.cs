@@ -10,5 +10,8 @@ namespace Jason.CodeLou.ExcerciseProject
         public DateTimeOffset StartDate { get; set; }
         public string LastClassCompleted { get; set; }
         public DateTimeOffset LastClassCompletedOn { get; set; }
+        public string StudentDisplay { get{return $"{StudentId}| {FirstName} |  {ClassName} ";}}
+        public string FullName { get {return $"{FirstName} {LastName}";  } }
+
     }
 }
