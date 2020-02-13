@@ -85,6 +85,9 @@ namespace Jason.CodeLou.ExcerciseProject
                     student.StudentId = studentId;    
                     break;
                 }
+            } 
+            while (true) 
+            {  
                 Console.WriteLine("Enter Last Class Completed in Format MM/DD/YYYY");
                 var lastClassCompletedOnSuccessful = DateTimeOffset.TryParse(Console.ReadLine(), out var lastClassCompletedOn);
                 if (lastClassCompletedOnSuccessful) 
@@ -92,6 +95,9 @@ namespace Jason.CodeLou.ExcerciseProject
                     student.LastClassCompletedOn = lastClassCompletedOn;    
                     break;
                 }
+            }
+            while (true) 
+            {
                 Console.WriteLine("Enter Start Date in Format MM/DD/YY");
                 var startDateSuccessful = DateTime.TryParse(Console.ReadLine(), out var startDate);
                 if (startDateSuccessful) 
